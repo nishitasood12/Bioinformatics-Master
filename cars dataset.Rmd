@@ -1,0 +1,24 @@
+---
+title: "My first Markdown file"
+author: "Nishitasood12"
+date: "2025-09-03"
+output: html_document
+---
+
+Description
+```{r, mychunk1,fig.height=7, fig.width=7}
+
+summary(cars)
+
+plot(mtcars$`wt`,mtcars$`mpg`,xlab="weight",ylab="mpg",main="mtcars")
+
+```
+```{r}
+summary(cars)
+plot(mtcars$`wt`,mtcars$`mpg`,xlab="weight",ylab="mpg",main="mtcars",col="blue")
+```
+
+```{r}
+sessionInfo()
+```
+
